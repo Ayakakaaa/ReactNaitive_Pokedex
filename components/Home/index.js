@@ -1,6 +1,7 @@
 import React from 'react'
 import { StyleSheet, View } from 'react-native'
 import { Header, ScrollableList } from '../';
+import { ImageBackground, Text } from 'react-native';
 
 export default function Home({navigation, pokemonList}) {
   return(
